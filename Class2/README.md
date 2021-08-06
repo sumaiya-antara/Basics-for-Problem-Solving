@@ -1,6 +1,7 @@
 # Object Oriented Programming(OOP)
 ## What is Object-Oriented Programming?
 The aim of Object Oriented Programming is to bind the data and functions together that operate on them so that no other part of the code can access this data except that particular function.
+
 Object-Oriented Programming is more secure than Procedure Oriented Programming(POP), because of the level of abstraction or data hiding property. It limits the access of data to the member functions of the same class.
 
 # Procedural Programming vs Object Oriented Programming
@@ -28,6 +29,7 @@ The four basic principles of Object-Oriented Programming are:
 
 ## Encapsulation
 Encapsulation protects an object from unwanted access. Encapsulation binds together the attributes (data) and the methods (functions and procedures) that manipulate the data. It does this so that the data is protected. 
+
 The attributes should only be accessed, retrieved or modified by using the methods that are encapsulated within the class definition.
 
 Data should never be accessed directly. Instead, getter and setter methods must be provided that will allow access to the attributes:
