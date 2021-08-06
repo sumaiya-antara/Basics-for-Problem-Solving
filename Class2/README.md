@@ -1,5 +1,6 @@
 # Object Oriented Programming(OOP)
-The aim of Object Oriented Programming is to bind the data and functions together that operate on them so that no other part of the code can access this data except that particular function. Object-Oriented Programming is more secure than Procedure Oriented Programming(POP), because of the level of abstraction or we can say data hiding property. It limits the access of data to the member functions of the same class.
+The aim of Object Oriented Programming is to bind the data and functions together that operate on them so that no other part of the code can access this data except that particular function.
+Object-Oriented Programming is more secure than Procedure Oriented Programming(POP), because of the level of abstraction or data hiding property. It limits the access of data to the member functions of the same class.
 
 # Procedural Programming vs Object Oriented Programming
 
@@ -17,7 +18,7 @@ Object is an instance of a class. An object in OOP is nothing but a self-contain
 - We can create thousands of objects from a class.
 - No matter how many objects we create from a specific class, all those objects will have similar behaviour.
 
-# 4 Basic Priciples of Object Oriented Programming 
+# 4 Basic Principles of Object Oriented Programming 
 The four basic principles of Object-Oriented Programming are: Encapsulation, Abstraction, Inheritance and Polymorphism.
 
 ## Encapsulation
