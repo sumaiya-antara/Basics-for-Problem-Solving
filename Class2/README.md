@@ -58,7 +58,13 @@ A constructor is a special method of a class or structure in object-oriented pro
 A constructor is like an instance method that usually has the same name as the class, and can be used to set the values of the members of an object, either to default or to user-defined values. This method is defined in the class and can be used to initialize basic variables.
 
 If we create four objects, the class constructor is called four times. Every class has a constructor, but it is not required to explicitly define it.
-In python, the constructor is created with the function **init** and it is represented in a dunder method like **__init__**
+In python, the constructor is created with the function **init** and it is represented in a dunder method like below:
+
+```
+def __init__(self):                 ## (__init__) is a dunder method
+        self.name = "Paul Walker"
+```
+
 
 # Mutable and Immutable in Python
 ## Mutable
