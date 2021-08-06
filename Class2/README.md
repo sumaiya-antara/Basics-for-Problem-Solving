@@ -74,3 +74,14 @@ Numbers(int, float, bool....), Strings, Tuples are immutable.
 #### Note:
 User-defined classes can be mutable or immutable depending on whether their internal state can be changed or not.
 
+# What is Palindrome?
+A palindrome is a word or a phrase that is the same whether we read it from backward or forward.
+
+Here are some examples of palindrome:
+- madam
+- kayak
+- pop
+- deed
+- level
+- hannah
+
