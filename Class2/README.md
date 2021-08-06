@@ -3,7 +3,7 @@ The aim of Object Oriented Programming is to bind the data and functions togethe
 
 # Procedural Programming vs Object Oriented Programming
 
-![alt text]https://github.com/sumaiya-antara/PostgreSQL/blob/master/PostgreSQL/P13.PNG "POP vs OOP")
+![alt text]https://github.com/sumaiya-antara/Basics-for-Problem-Solving/blob/master/Class2/POP%20vs%20OOP.PNG "POP vs OOP")
 
 
 # Class
