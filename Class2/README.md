@@ -61,9 +61,37 @@ If we create four objects, the class constructor is called four times. Every cla
 In python, the constructor is created with the function **init** and it is represented in a dunder method like below:
 
 ```
-def __init__(self):                 ## (__init__) is a dunder method
-        self.name = "Paul Walker"
+class human:
+def __init__(self,name,age):                 ## (__init__) is a dunder method
+        self.name = name                     ## self means the owner of this method and with which class it is attached
+        self.age =  age
 ```
+
+# Stack Area vs Heap Area
+
+## Stack Area:
+- A stack is a special area of computer's memory which stores temporary variables created by a function.
+- In stack, variables are declared, stored and initialized during runtime.
+- It is a temporary storage memory. When the computing task is complete, the memory of the variable will be automatically erased.
+- The stack section mostly contains methods, local variable, and reference variables.
+- The object references are stored in stack area.
+- Variables cannot be resized in stack area.
+- It is automatically done by compiler instructions.
+
+## Heap Area:
+- The heap is a memory used by programming languages to store global variables.
+- By default, all global variable are stored in heap memory space. It supports Dynamic memory allocation.
+- Variables can be resized in heap area.
+- It is manually done by the programmer.
+- Objects are created in the heap area.
+
+# Attributes and Methods
+
+## Attributes:
+In OOP, we have attributes in classes and objects. Attributes are the properties where we can store data.
+
+## Methods:
+When we call a function inside a class, that function is called method. Method represents the behaviour of the objects that are created from class.
 
 
 # Mutable and Immutable in Python
